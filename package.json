@@ -1,0 +1,17 @@
+{
+  "name": "aiava-text-to-speech",
+  "version": "1.0.0",
+  "description": "Turn text into voice.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "parcel src/index.ts -d build/ -t browser",
+    "doc": "typedoc src/"
+  },
+  "repository": "https://github.com/aiava/text-to-speech",
+  "author": "The Team Coders <ihack@theteamcoders.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typedoc": "^0.14.2"
+  }
+}
