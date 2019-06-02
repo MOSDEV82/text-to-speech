@@ -1,6 +1,6 @@
 {
   "name": "aiava-text-to-speech",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn text into voice.",
   "main": "build/index.js",
   "scripts": {
