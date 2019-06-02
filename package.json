@@ -1,9 +1,9 @@
 {
   "name": "aiava-text-to-speech",
-  "version": "1.1.4",
+  "version": "1.2.4",
   "description": "Turn text into voice.",
   "main": "build/index.js",
-  "typings": "src/",
+  "typings": "typings/",
   "scripts": {
     "build": "tsc",
     "doc": "typedoc src/"
@@ -12,7 +12,6 @@
   "author": "The Team Coders <ihack@theteamcoders.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
     "typedoc": "^0.14.2"
   },
   "dependencies": {
