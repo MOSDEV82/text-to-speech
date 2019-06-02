@@ -1,11 +1,11 @@
 {
   "name": "aiava-text-to-speech",
-  "version": "1.0.4",
+  "version": "1.1.4",
   "description": "Turn text into voice.",
   "main": "build/index.js",
   "typings": "src/",
   "scripts": {
-    "build": "parcel src/index.ts -d build/ -t browser",
+    "build": "tsc",
     "doc": "typedoc src/"
   },
   "repository": "https://github.com/aiava/text-to-speech",
@@ -14,5 +14,8 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "typedoc": "^0.14.2"
+  },
+  "dependencies": {
+    "typescript": "^3.5.1"
   }
 }
